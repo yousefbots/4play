@@ -347,7 +347,6 @@ client.on('message', message => {
             if (message.content.startsWith(prefix + "help")) {
      let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)
-.addField('     **البريفكس [$help] ** ')
 .addField('     **(1)-4play** ' ,' **تفتح موسيقي** ')
 .addField('     **(2)-4skip**  ' ,' **تحول للاغنيه البعدها** ')
 .addField('     **(3)-4stop** ' , '**تخرج البوت من الروم**') 
